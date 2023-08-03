@@ -1,0 +1,13 @@
+@layer WorkWithPlusDS{
+[gx-data-background-color="Light"]
+{
+	--GX-Image_core_TresoryLogo01 : url(../WorkWithPlusDS/background-color_Light/core.TresoryLogo01.png);
+}
+
+[gx-data-background-color="Dark"]
+{
+	--GX-Image_core_TresoryLogo01 : url(../WorkWithPlusDS/background-color_Dark/core.TresoryLogo01.png);
+}
+.GX_Image_core_TresoryLogo01_Class{content: var(--GX-Image_core_TresoryLogo01);}
+.GX_Image_core_TresoryLogo01_Class{content: var(--GX-Image_core_TresoryLogo01);}
+}

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Objects xmlns="qv">
+  <Object name="General.UI.SidebarItemsDP" id="1" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="SidebarItemsDP" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.regiao_DataProvider" id="2" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="regiao_DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.uf_DataProvider" id="3" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="uf_DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.mesorregiao_DataProvider" id="4" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="mesorregiao_DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.microrregiao_DataProvider" id="5" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="microrregiao_DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.municipio_DataProvider" id="6" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="municipio_DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="WWPBaseObjects.GetHomeSampleData" id="7" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="GetHomeSampleData" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="WWPBaseObjects.GetHomeSampleNameValueData" id="8" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="GetHomeSampleNameValueData" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="WWPBaseObjects.WWP_LoadTreeViewSampleData" id="9" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="WWP_LoadTreeViewSampleData" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="WWPBaseObjects.GetHomeModulesSample" id="10" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="GetHomeModulesSample" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="WWPBaseObjects.GetMainHomeModulesSample" id="11" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="GetMainHomeModulesSample" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="WWPBaseObjects.GetSomeHomeModulesSample" id="12" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="GetSomeHomeModulesSample" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="WWPBaseObjects.GetHomeSampleDataService" id="13" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="GetHomeSampleDataService" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="WWPBaseObjects.SecGAMGetAdvancedSecurityWWPFunctionalities" id="14" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="SecGAMGetAdvancedSecurityWWPFunctionalities" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="WWPBaseObjects.Notifications.Common.WWP_AutomaticNotificationDefinitionsToLoad" id="15" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="WWP_AutomaticNotificationDefinitionsToLoad" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="WWPBaseObjects.Notifications.Common.WWP_GetNotificationsForUser" id="16" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="WWP_GetNotificationsForUser" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="WWPBaseObjects.LoadMenu_GAMMenu" id="17" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="LoadMenu_GAMMenu" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.ClientePJTipo_DataProvider" id="18" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="ClientePJTipo_DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.Iteracao_DataProvider" id="19" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="Iteracao_DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="LoadEventsSampleDP" id="20" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="LoadEventsSampleDP" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.schedulerVisitas" id="21" type="DataProvider" IntegratedSecurityLevel="SecurityLow" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.dpNegocioPJFluxoObterDados" id="22" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="dpNegocioPJFluxoObterDados" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.dpDocumentoObterDados" id="23" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="dpDocumentoObterDados" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.dpVisitaObterDados" id="24" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="dpVisitaObterDados" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.dpCentroDeCustoObterDados" id="25" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="dpCentroDeCustoObterDados" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.dpGeneroObterDados" id="26" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="dpGeneroObterDados" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.dpParametrosObterDados" id="27" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="dpParametrosObterDados" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.dpDocumentoTipoObterDados" id="28" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="dpDocumentoTipoObterDados" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.dpContatoTipoObterDados" id="29" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="dpContatoTipoObterDados" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.dpProdutoTipoObterDados" id="30" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="dpProdutoTipoObterDados" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.dpTabelaDePrecoObterDados" id="31" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="dpTabelaDePrecoObterDados" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.dpVisitaTipoObterDados" id="32" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="dpVisitaTipoObterDados" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.dpProdutoObterDados" id="33" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="dpProdutoObterDados" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="core.dpNegocioPJObterDados" id="34" type="DataProvider" IntegratedSecurityLevel="SecurityHigh" PermissionPrefix="dpNegocioPJObterDados" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+</Objects>

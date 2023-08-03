@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CallableObject guid="e3289f6e-ba57-7221-9793-ead84b99431b" name="core.microrregiao_DataProvider" description="microrregiao_Data Provider" namespace="GeneXus.Programs">
+  <Signature name="parm">
+    <Parameter name="ReturnValue" accessor="out" collection="true">
+      <Field name="microrregiao" description="Microrregião">
+        <Fields>
+          <Field name="MicrorregiaoID" description="ID">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Numeric</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>9</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="MicrorregiaoNome" description="Nome">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>80</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="MicrorregiaoMesoID" description="Mesoregião ID">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Numeric</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>9</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="MicrorregiaoMesoNome" description="MesoRegião Nome">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>80</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="MicrorregiaoMesoUFID" description="UF ID">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Numeric</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>9</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="MicrorregiaoMesoUFSigla" description="UF Sigla">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>2</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="MicrorregiaoMesoUFNome" description="UF Nome">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>50</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="MicrorregiaoMesoUFSiglaNome" description="UF Sigla + Nome">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>70</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="MicrorregiaoMesoUFRegID" description="Região ID">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Numeric</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>9</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="MicrorregiaoMesoUFRegSigla" description="Região Sigla">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>10</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="MicrorregiaoMesoUFRegNome" description="Região Nome">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>50</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="MicrorregiaoMesoUFRegSiglaNome" description="Região Siga + Nome">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>70</Value>
+              </Property>
+            </Properties>
+          </Field>
+        </Fields>
+      </Field>
+    </Parameter>
+  </Signature>
+</CallableObject>

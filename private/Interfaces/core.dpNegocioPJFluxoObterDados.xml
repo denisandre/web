@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CallableObject guid="010061f4-4d93-4a40-8c14-94d943d9b93e" name="core.dpNegocioPJFluxoObterDados" description="Obter Dados do Fluxo do Negócio" namespace="GeneXus.Programs">
+  <Signature name="par">
+    <Parameter name="NegID">
+      <Field>
+        <Properties>
+          <Property>
+            <Name>Type</Name>
+            <Value>GUID</Value>
+          </Property>
+        </Properties>
+      </Field>
+    </Parameter>
+    <Parameter name="NefChave">
+      <Field>
+        <Properties>
+          <Property>
+            <Name>Type</Name>
+            <Value>VarChar</Value>
+          </Property>
+          <Property>
+            <Name>Length</Name>
+            <Value>100</Value>
+          </Property>
+        </Properties>
+      </Field>
+    </Parameter>
+    <Parameter name="NefChaveList" collection="true">
+      <Field>
+        <Properties>
+          <Property>
+            <Name>Type</Name>
+            <Value>VarChar</Value>
+          </Property>
+          <Property>
+            <Name>Length</Name>
+            <Value>100</Value>
+          </Property>
+        </Properties>
+      </Field>
+    </Parameter>
+    <Parameter name="ReturnValue" accessor="out" collection="true">
+      <Field name="SDTNegocioPJFluxo" description="SDTNegocio PJFluxo">
+        <Fields>
+          <Field name="NegID" description="ID">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>GUID</Value>
+              </Property>
+              <Property>
+                <Name>Picture</Name>
+                <Value>XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="NefChave" description="Chave do Fluxo">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>100</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="NefConfirmado" description="Confirmado?">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Boolean</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="NefTexto" description="Texto">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>250</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="NefInsDataHora" description="Data/Hora de Inclusão">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>DateTime</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>10</Value>
+              </Property>
+              <Property>
+                <Name>Decimals</Name>
+                <Value>12</Value>
+              </Property>
+              <Property>
+                <Name>Picture</Name>
+                <Value>99/99/9999 99:99:99.999</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="NefInsData" description="Data de Inclusão">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>DateTime</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>10</Value>
+              </Property>
+              <Property>
+                <Name>Decimals</Name>
+                <Value>5</Value>
+              </Property>
+              <Property>
+                <Name>Picture</Name>
+                <Value>99/99/9999 99:99</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="NefInsHora" description="Hora de Inclusão">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>DateTime</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>0</Value>
+              </Property>
+              <Property>
+                <Name>Decimals</Name>
+                <Value>5</Value>
+              </Property>
+              <Property>
+                <Name>Picture</Name>
+                <Value>99:99</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="NefInsUsuId" description="Usuário ID de Inclusão">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Character</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>40</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="NefInsUsuNome" description="Nome do Usuário de Inclusão">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>80</Value>
+              </Property>
+              <Property>
+                <Name>Picture</Name>
+                <Value>@!</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="NefUpdDataHora" description="Data/Hora de Alteração">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>DateTime</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>10</Value>
+              </Property>
+              <Property>
+                <Name>Decimals</Name>
+                <Value>12</Value>
+              </Property>
+              <Property>
+                <Name>Picture</Name>
+                <Value>99/99/9999 99:99:99.999</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="NefUpdData" description="Data de Alteração">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>DateTime</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>10</Value>
+              </Property>
+              <Property>
+                <Name>Decimals</Name>
+                <Value>5</Value>
+              </Property>
+              <Property>
+                <Name>Picture</Name>
+                <Value>99/99/9999 99:99</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="NefUpdHora" description="Hora de Alteração">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>DateTime</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>0</Value>
+              </Property>
+              <Property>
+                <Name>Decimals</Name>
+                <Value>5</Value>
+              </Property>
+              <Property>
+                <Name>Picture</Name>
+                <Value>99:99</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="NefUpdUsuId" description="Usuário ID de Alteração">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Character</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>40</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="NefUpdUsuNome" description="Nome do Usuário de Alteração">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>VarChar</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>80</Value>
+              </Property>
+              <Property>
+                <Name>Picture</Name>
+                <Value>@!</Value>
+              </Property>
+            </Properties>
+          </Field>
+          <Field name="NefValor" description="Valor">
+            <Properties>
+              <Property>
+                <Name>Type</Name>
+                <Value>Numeric</Value>
+              </Property>
+              <Property>
+                <Name>Length</Name>
+                <Value>3</Value>
+              </Property>
+              <Property>
+                <Name>Picture</Name>
+                <Value>ZZ9</Value>
+              </Property>
+            </Properties>
+          </Field>
+        </Fields>
+      </Field>
+    </Parameter>
+  </Signature>
+</CallableObject>

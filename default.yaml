@@ -1,0 +1,1908 @@
+openapi: 3.0.0
+info:
+  title: "agl_tresorygroup"
+  version: "20230802161208"
+servers:
+  - url: http://localhost:8082/agl_tresorygroupnetpostgresql/rest
+paths:
+  /core/AuditWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.AuditWWGetFilterData"
+      summary: "Audit WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.AuditWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.AuditWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/CentroDeCustoWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.CentroDeCustoWWGetFilterData"
+      summary: "Centro De Custo WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.CentroDeCustoWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.CentroDeCustoWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/ClientePJContatoLoadDVCombo:
+    post:
+      tags:
+        - core
+      operationId: "core.ClientePJContatoLoadDVCombo"
+      summary: "Cliente PJContato Load DVCombo"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.ClientePJContatoLoadDVComboInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.ClientePJContatoLoadDVComboOutput"
+        404:
+          description: "Not found"
+  /core/ClientePJContatoWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.ClientePJContatoWWGetFilterData"
+      summary: "Cliente PJContato WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.ClientePJContatoWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.ClientePJContatoWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/ClientePJLoadDVCombo:
+    post:
+      tags:
+        - core
+      operationId: "core.ClientePJLoadDVCombo"
+      summary: "Cliente PJLoad DVCombo"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.ClientePJLoadDVComboInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.ClientePJLoadDVComboOutput"
+        404:
+          description: "Not found"
+  /core/ClientePJTipoWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.ClientePJTipoWWGetFilterData"
+      summary: "Cliente PJTipo WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.ClientePJTipoWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.ClientePJTipoWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/ClienteWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.ClienteWWGetFilterData"
+      summary: "Cliente WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.ClienteWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.ClienteWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/ContatoTipoWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.ContatoTipoWWGetFilterData"
+      summary: "Contato Tipo WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.ContatoTipoWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.ContatoTipoWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/DocumentoArquivoWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.DocumentoArquivoWWGetFilterData"
+      summary: "Documento Arquivo WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.DocumentoArquivoWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.DocumentoArquivoWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/DocumentoEstruturaLoadDVCombo:
+    post:
+      tags:
+        - core
+      operationId: "core.DocumentoEstruturaLoadDVCombo"
+      summary: "Documento Estrutura Load DVCombo"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.DocumentoEstruturaLoadDVComboInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.DocumentoEstruturaLoadDVComboOutput"
+        404:
+          description: "Not found"
+  /core/DocumentoLoadDVCombo:
+    post:
+      tags:
+        - core
+      operationId: "core.DocumentoLoadDVCombo"
+      summary: "Documento Load DVCombo"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.DocumentoLoadDVComboInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.DocumentoLoadDVComboOutput"
+        404:
+          description: "Not found"
+  /core/DocumentoTipoWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.DocumentoTipoWWGetFilterData"
+      summary: "Documento Tipo WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.DocumentoTipoWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.DocumentoTipoWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/DocumentoWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.DocumentoWWGetFilterData"
+      summary: "Documento WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.DocumentoWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.DocumentoWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/GeneroWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.GeneroWWGetFilterData"
+      summary: "Genero WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.GeneroWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.GeneroWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/IteracaoWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.IteracaoWWGetFilterData"
+      summary: "Iteracao WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.IteracaoWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.IteracaoWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/mesorregiaoLoadDVCombo:
+    post:
+      tags:
+        - core
+      operationId: "core.mesorregiaoLoadDVCombo"
+      summary: "mesorregiao Load DVCombo"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.mesorregiaoLoadDVComboInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.mesorregiaoLoadDVComboOutput"
+        404:
+          description: "Not found"
+  /core/mesorregiaoWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.mesorregiaoWWGetFilterData"
+      summary: "mesorregiao WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.mesorregiaoWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.mesorregiaoWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/microrregiaoLoadDVCombo:
+    post:
+      tags:
+        - core
+      operationId: "core.microrregiaoLoadDVCombo"
+      summary: "microrregiao Load DVCombo"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.microrregiaoLoadDVComboInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.microrregiaoLoadDVComboOutput"
+        404:
+          description: "Not found"
+  /core/microrregiaoWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.microrregiaoWWGetFilterData"
+      summary: "microrregiao WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.microrregiaoWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.microrregiaoWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/municipioLoadDVCombo:
+    post:
+      tags:
+        - core
+      operationId: "core.municipioLoadDVCombo"
+      summary: "municipio Load DVCombo"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.municipioLoadDVComboInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.municipioLoadDVComboOutput"
+        404:
+          description: "Not found"
+  /core/municipioWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.municipioWWGetFilterData"
+      summary: "municipio WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.municipioWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.municipioWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/NegocioPJEstruturaLoadDVCombo:
+    post:
+      tags:
+        - core
+      operationId: "core.NegocioPJEstruturaLoadDVCombo"
+      summary: "Negocio PJEstrutura Load DVCombo"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.NegocioPJEstruturaLoadDVComboInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.NegocioPJEstruturaLoadDVComboOutput"
+        404:
+          description: "Not found"
+  /core/NegocioPJFluxoLoadDVCombo:
+    post:
+      tags:
+        - core
+      operationId: "core.NegocioPJFluxoLoadDVCombo"
+      summary: "Negocio PJFluxo Load DVCombo"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.NegocioPJFluxoLoadDVComboInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.NegocioPJFluxoLoadDVComboOutput"
+        404:
+          description: "Not found"
+  /core/NegocioPJLoadDVCombo:
+    post:
+      tags:
+        - core
+      operationId: "core.NegocioPJLoadDVCombo"
+      summary: "Negocio PJLoad DVCombo"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.NegocioPJLoadDVComboInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.NegocioPJLoadDVComboOutput"
+        404:
+          description: "Not found"
+  /core/NegocioPJSemFasePromptGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.NegocioPJSemFasePromptGetFilterData"
+      summary: "Negocio PJSem Fase Prompt Get Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.NegocioPJSemFasePromptGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.NegocioPJSemFasePromptGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/NegocioPJWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.NegocioPJWWGetFilterData"
+      summary: "Negocio PJWWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.NegocioPJWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.NegocioPJWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/ParametrosWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.ParametrosWWGetFilterData"
+      summary: "Parametros WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.ParametrosWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.ParametrosWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/ProdutoLoadDVCombo:
+    post:
+      tags:
+        - core
+      operationId: "core.ProdutoLoadDVCombo"
+      summary: "Produto Load DVCombo"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.ProdutoLoadDVComboInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.ProdutoLoadDVComboOutput"
+        404:
+          description: "Not found"
+  /core/ProdutoTipoWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.ProdutoTipoWWGetFilterData"
+      summary: "Produto Tipo WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.ProdutoTipoWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.ProdutoTipoWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/ProdutoWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.ProdutoWWGetFilterData"
+      summary: "Produto WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.ProdutoWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.ProdutoWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/regiaoWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.regiaoWWGetFilterData"
+      summary: "regiao WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.regiaoWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.regiaoWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/TabelaDePrecoWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.TabelaDePrecoWWGetFilterData"
+      summary: "Tabela De Preco WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.TabelaDePrecoWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.TabelaDePrecoWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/ufLoadDVCombo:
+    post:
+      tags:
+        - core
+      operationId: "core.ufLoadDVCombo"
+      summary: "uf Load DVCombo"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.ufLoadDVComboInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.ufLoadDVComboOutput"
+        404:
+          description: "Not found"
+  /core/ufWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.ufWWGetFilterData"
+      summary: "uf WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.ufWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.ufWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/VisitaLoadDVCombo:
+    post:
+      tags:
+        - core
+      operationId: "core.VisitaLoadDVCombo"
+      summary: "Visita Load DVCombo"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.VisitaLoadDVComboInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.VisitaLoadDVComboOutput"
+        404:
+          description: "Not found"
+  /core/VisitaTipoWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.VisitaTipoWWGetFilterData"
+      summary: "Visita Tipo WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.VisitaTipoWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.VisitaTipoWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/VisitaWWGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.VisitaWWGetFilterData"
+      summary: "Visita WWGet Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.VisitaWWGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.VisitaWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/wcDocumentoArquivoGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.wcDocumentoArquivoGetFilterData"
+      summary: "wc Documento Arquivo Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.wcDocumentoArquivoGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.wcDocumentoArquivoGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /core/webfunilGetFilterData:
+    post:
+      tags:
+        - core
+      operationId: "core.webfunilGetFilterData"
+      summary: "webfunil Get Filter Data"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/core.webfunilGetFilterDataInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/core.webfunilGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WWPBaseObjects/Discussions/WWP_GetUsersForDiscussionMentions:
+    post:
+      tags:
+        - WWPBaseObjects.Discussions
+      operationId: "WWPBaseObjects.Discussions.WWP_GetUsersForDiscussionMentions"
+      summary: "WWP_Get Users For Discussion Mentions"
+      security: 
+        - oAuthGXGAM: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WWPBaseObjects.Discussions.WWP_GetUsersForDiscussionMentionsInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WWPBaseObjects.Discussions.WWP_GetUsersForDiscussionMentionsOutput"
+        404:
+          description: "Not found"
+  /oauth/access_token:
+    post:
+      tags:
+        - oauth
+      operationId: "oauth.access_token"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/logout:
+    post:
+      tags:
+        - oauth
+      operationId: "oauth.logout"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/userinfo:
+    get:
+      tags:
+        - oauth
+      operationId: "oauth.userinfo"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /gx_valid_service:
+    post:
+      tags:
+        - GXValidService
+      operationId: "gx_valid_service"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/gam/signin:
+    post:
+      tags:
+        - oauth.gam
+      operationId: "oauth.gam.signin"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/gam/callback:
+    get:
+      tags:
+        - oauth.gam
+      operationId: "oauth.gam.callback"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/gam/access_token:
+    post:
+      tags:
+        - oauth.gam
+      operationId: "oauth.gam.access_token"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/gam/userinfo:
+    post:
+      tags:
+        - oauth.gam
+      operationId: "oauth.gam.userinfo"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/gam/signout:
+    post:
+      tags:
+        - oauth.gam
+      operationId: "oauth.gam.signout"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/RequestTokenService:
+    post:
+      tags:
+        - oauth
+      operationId: "oauth.RequestTokenService"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/QueryAccessToken:
+    post:
+      tags:
+        - oauth
+      operationId: "oauth.QueryAccessToken"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /saml/gam/signout:
+    post:
+      tags:
+        - saml.gam
+      operationId: "saml.gam.signout"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /saml/gam/signin:
+    post:
+      tags:
+        - saml.gam
+      operationId: "saml.gam.signin"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+components:
+  securitySchemes:
+    oAuthGXGAM:
+      type: oauth2
+      description: GAM OAuth 2
+      flows:
+        password:          
+          tokenUrl: http://localhost:8082/agl_tresorygroupnetpostgresql/oauth/gam/v2.0/access_token
+          scopes: 
+            fullcontrol: Full access
+
+  schemas:
+    core.AuditWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.CentroDeCustoWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.ClientePJContatoLoadDVComboOutput:
+      properties:
+        SelectedValue:
+          type: "string"
+        SelectedText:
+          type: "string"
+        Combo_DataJson:
+          type: "string"
+    core.ClientePJContatoWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.ClientePJLoadDVComboOutput:
+      properties:
+        SelectedValue:
+          type: "string"
+        SelectedText:
+          type: "string"
+        Combo_DataJson:
+          type: "string"
+    core.ClientePJTipoWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.ClienteWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.ContatoTipoWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.DocumentoArquivoWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.DocumentoEstruturaLoadDVComboOutput:
+      properties:
+        SelectedValue:
+          type: "string"
+        SelectedText:
+          type: "string"
+        Combo_DataJson:
+          type: "string"
+    core.DocumentoLoadDVComboOutput:
+      properties:
+        SelectedValue:
+          type: "string"
+        Combo_Data:
+          description: DVB_SDTCombo Data
+          type: array
+          items:
+            $ref: "#/components/schemas/WWPBaseObjects.DVB_SDTComboData_Item"
+    core.DocumentoTipoWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.DocumentoWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.GeneroWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.IteracaoWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.mesorregiaoLoadDVComboOutput:
+      properties:
+        SelectedValue:
+          type: "string"
+        SelectedText:
+          type: "string"
+        Combo_DataJson:
+          type: "string"
+    core.mesorregiaoWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.microrregiaoLoadDVComboOutput:
+      properties:
+        SelectedValue:
+          type: "string"
+        SelectedText:
+          type: "string"
+        Combo_DataJson:
+          type: "string"
+    core.microrregiaoWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.municipioLoadDVComboOutput:
+      properties:
+        SelectedValue:
+          type: "string"
+        SelectedText:
+          type: "string"
+        Combo_DataJson:
+          type: "string"
+    core.municipioWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.NegocioPJEstruturaLoadDVComboOutput:
+      properties:
+        SelectedValue:
+          type: "string"
+        SelectedText:
+          type: "string"
+        Combo_DataJson:
+          type: "string"
+    core.NegocioPJFluxoLoadDVComboOutput:
+      properties:
+        SelectedValue:
+          type: "string"
+        SelectedText:
+          type: "string"
+        Combo_DataJson:
+          type: "string"
+    core.NegocioPJLoadDVComboOutput:
+      properties:
+        SelectedValue:
+          type: "string"
+        SelectedText:
+          type: "string"
+        Combo_DataJson:
+          type: "string"
+    core.NegocioPJSemFasePromptGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.NegocioPJWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.ParametrosWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.ProdutoLoadDVComboOutput:
+      properties:
+        SelectedValue:
+          type: "string"
+        SelectedText:
+          type: "string"
+        Combo_DataJson:
+          type: "string"
+    core.ProdutoTipoWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.ProdutoWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.regiaoWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.TabelaDePrecoWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.ufLoadDVComboOutput:
+      properties:
+        SelectedValue:
+          type: "string"
+        SelectedText:
+          type: "string"
+        Combo_DataJson:
+          type: "string"
+    core.ufWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.VisitaLoadDVComboOutput:
+      properties:
+        SelectedValue:
+          type: "string"
+        Combo_Data:
+          description: DVB_SDTCombo Data
+          type: array
+          items:
+            $ref: "#/components/schemas/WWPBaseObjects.DVB_SDTComboData_Item"
+    core.VisitaTipoWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.VisitaWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.wcDocumentoArquivoGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    core.webfunilGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WWPBaseObjects.Discussions.WWP_GetUsersForDiscussionMentionsOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+
+    core.AuditWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.CentroDeCustoWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.ClientePJContatoLoadDVComboInput:
+      properties:
+        ComboName:
+          type: "string"
+        TrnMode:
+          type: "string"
+        IsDynamicCall:
+          type: "boolean"
+        CliID:
+          type: "string"
+          format: "uuid"
+        CpjID:
+          type: "string"
+          format: "uuid"
+        CpjConSeq:
+          type: "integer"
+          format: "int32"
+        Cond_CliID:
+          type: "string"
+          format: "uuid"
+        SearchTxtParms:
+          type: "string"
+    core.ClientePJContatoWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.ClientePJLoadDVComboInput:
+      properties:
+        ComboName:
+          type: "string"
+        TrnMode:
+          type: "string"
+        IsDynamicCall:
+          type: "boolean"
+        CliID:
+          type: "string"
+          format: "uuid"
+        CpjID:
+          type: "string"
+          format: "uuid"
+        Cond_CpjTipoId:
+          type: "integer"
+          format: "int64"
+        Cond_CliID:
+          type: "string"
+          format: "uuid"
+        SearchTxtParms:
+          type: "string"
+    core.ClientePJTipoWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.ClienteWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.ContatoTipoWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.DocumentoArquivoWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.DocumentoEstruturaLoadDVComboInput:
+      properties:
+        ComboName:
+          type: "string"
+        TrnMode:
+          type: "string"
+        IsDynamicCall:
+          type: "boolean"
+        DocID:
+          type: "string"
+          format: "uuid"
+        SearchTxtParms:
+          type: "string"
+    core.DocumentoLoadDVComboInput:
+      properties:
+        ComboName:
+          type: "string"
+        TrnMode:
+          type: "string"
+        DocID:
+          type: "string"
+          format: "uuid"
+    core.DocumentoTipoWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.DocumentoWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.GeneroWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.IteracaoWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.mesorregiaoLoadDVComboInput:
+      properties:
+        ComboName:
+          type: "string"
+        TrnMode:
+          type: "string"
+        IsDynamicCall:
+          type: "boolean"
+        MesorregiaoID:
+          type: "integer"
+          format: "int64"
+        SearchTxtParms:
+          type: "string"
+    core.mesorregiaoWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.microrregiaoLoadDVComboInput:
+      properties:
+        ComboName:
+          type: "string"
+        TrnMode:
+          type: "string"
+        IsDynamicCall:
+          type: "boolean"
+        MicrorregiaoID:
+          type: "integer"
+          format: "int64"
+        SearchTxtParms:
+          type: "string"
+    core.microrregiaoWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.municipioLoadDVComboInput:
+      properties:
+        ComboName:
+          type: "string"
+        TrnMode:
+          type: "string"
+        IsDynamicCall:
+          type: "boolean"
+        MunicipioID:
+          type: "integer"
+          format: "int64"
+        SearchTxtParms:
+          type: "string"
+    core.municipioWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.NegocioPJEstruturaLoadDVComboInput:
+      properties:
+        ComboName:
+          type: "string"
+        TrnMode:
+          type: "string"
+        IsDynamicCall:
+          type: "boolean"
+        NegID:
+          type: "string"
+          format: "uuid"
+        SearchTxtParms:
+          type: "string"
+    core.NegocioPJFluxoLoadDVComboInput:
+      properties:
+        ComboName:
+          type: "string"
+        TrnMode:
+          type: "string"
+        IsDynamicCall:
+          type: "boolean"
+        NegID:
+          type: "string"
+          format: "uuid"
+        NefChave:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+    core.NegocioPJLoadDVComboInput:
+      properties:
+        ComboName:
+          type: "string"
+        TrnMode:
+          type: "string"
+        IsDynamicCall:
+          type: "boolean"
+        NegID:
+          type: "string"
+          format: "uuid"
+        Cond_NegCliID:
+          type: "string"
+          format: "uuid"
+        Cond_NegCpjID:
+          type: "string"
+          format: "uuid"
+        SearchTxtParms:
+          type: "string"
+    core.NegocioPJSemFasePromptGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.NegocioPJWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.ParametrosWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.ProdutoLoadDVComboInput:
+      properties:
+        ComboName:
+          type: "string"
+        TrnMode:
+          type: "string"
+        IsDynamicCall:
+          type: "boolean"
+        PrdID:
+          type: "string"
+          format: "uuid"
+        SearchTxtParms:
+          type: "string"
+    core.ProdutoTipoWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.ProdutoWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.regiaoWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.TabelaDePrecoWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.ufLoadDVComboInput:
+      properties:
+        ComboName:
+          type: "string"
+        TrnMode:
+          type: "string"
+        IsDynamicCall:
+          type: "boolean"
+        UFID:
+          type: "integer"
+          format: "int64"
+        SearchTxtParms:
+          type: "string"
+    core.ufWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.VisitaLoadDVComboInput:
+      properties:
+        ComboName:
+          type: "string"
+        TrnMode:
+          type: "string"
+        VisID:
+          type: "string"
+          format: "uuid"
+    core.VisitaTipoWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.VisitaWWGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.wcDocumentoArquivoGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    core.webfunilGetFilterDataInput:
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WWPBaseObjects.Discussions.WWP_GetUsersForDiscussionMentionsInput:
+      properties:
+        SearchTxt:
+          type: "string"
+
+  
+    WWPBaseObjects.DVB_SDTComboData_Item:
+      properties:
+        ID:
+          description: ID
+          type: "string"
+        Title:
+          description: Title
+          type: "string"
+        Children:
+          description: DVB_SDTCombo Data
+          type: array
+          items:
+            $ref: "#/components/schemas/WWPBaseObjects.DVB_SDTComboData_Item"
+
+
+
+ 

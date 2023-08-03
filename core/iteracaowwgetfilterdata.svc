@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.core.iteracaowwgetfilterdata,core.iteracaowwgetfilterdata" %>

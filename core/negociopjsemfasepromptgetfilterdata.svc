@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.core.negociopjsemfasepromptgetfilterdata,core.negociopjsemfasepromptgetfilterdata" %>

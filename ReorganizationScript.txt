@@ -1,0 +1,5 @@
+/* KBSaveReorganization 26/07/2023 20:54:00 DENIS-G5\denis  */ 
+ALTER TABLE tb_documento_arquivo ADD DocArqArmExterno BOOLEAN NOT NULL DEFAULT FALSE, ADD DocArqArmExternoPath VARCHAR(2000);;
+ALTER TABLE tb_documento_arquivo ALTER COLUMN DocArqArmExterno DROP DEFAULT;;
+ALTER TABLE tb_documento_arquivo ALTER COLUMN DocArqConteudo DROP NOT NULL;;
+;
